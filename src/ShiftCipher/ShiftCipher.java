@@ -6,7 +6,7 @@ public class ShiftCipher {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String str1 = scan.next();
+        String str1 = scan.nextLine();
         Scanner scanNum = new Scanner(System.in);
         int shiftValue = scanNum.nextInt();
         char[] ch1 = str1.toCharArray();
