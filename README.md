@@ -17,6 +17,17 @@ special characters are not shifted.
 
 With the inputs `Hello` and `3`, the output `Khoor` is expected.
 
+## RoutePlanner: Nearest Neighbour Algorithm
+
+Given a list of coordinates and a starting location, `calcuateRoute` in
+`RoutePlanner` orders the coordinates using the Nearest Neighbour Algorithm.
+
+### Example
+
+Suppose we have a list of coordinates: `[(1.0,2.0),(3.0,3.0),(1.5,1.5)]`. Let
+the starting point be `(0.0,0.0)`. Then, the route is `calculateRoute(0.0,0.0)
+== [(1.5, 1.5), (1.0, 2.0), (3.0, 3.0)]`.
+
 @author: Alvin Tang <dev@alvinylt.net>
 
-@last-updated: 2022-07-30
+@last-updated: 2022-08-25
